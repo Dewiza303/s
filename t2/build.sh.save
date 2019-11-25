@@ -1,0 +1,6 @@
+#!/bin/bash
+
+nasm -f -elf32 remnth.s
+cc -m32 -std=c99 -c main.c
+cc -o -g -m32 remnth main.o remnth.o
+

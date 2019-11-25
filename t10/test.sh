@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./reversedig 9876543210 12345wiktor67890 0123456789 wik12345tor09876
